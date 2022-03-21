@@ -26,8 +26,8 @@ secondline_text <- image_blank(width = 500,
                  font = "Impact",
                  gravity = "center")
 
-cat_vector <- c(picture1, firstline_text)
-top_row <- image_append(cat_vector)
+first_vector <- c(picture1, firstline_text)
+top_row <- image_append(first_vector)
 
 
 bottom_row <- image_append(c(picture2, secondline_text))
