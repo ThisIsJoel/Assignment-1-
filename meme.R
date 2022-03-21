@@ -32,6 +32,8 @@ top_row <- image_append(cat_vector)
 
 bottom_row <- image_append(c(picture2, secondline_text))
 
-c(top_row, bottom_row) %>%
+my_meme <- c(top_row, bottom_row) %>%
   image_append(stack = TRUE) %>%
   image_scale(800)
+  
+image_write(my_meme,"My_meme.png")
